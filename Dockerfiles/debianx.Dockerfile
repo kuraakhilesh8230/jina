@@ -71,7 +71,7 @@ RUN cd /jina && \
 
 ENTRYPOINT ["jina"]
 
-FROM jina AS jina_daemon
+FROM jina AS jina
 
 ARG APT_PACKAGES="gcc libc-dev make"
 
